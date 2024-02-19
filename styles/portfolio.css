@@ -14,3 +14,11 @@ p {
   font-family: "Playfair Display", serif;
   font-weight: normal;
 }
+.insta-logo {
+  color: pink;
+  width: 100%;
+}
+
+.envelope {
+  color: aqua;
+}
