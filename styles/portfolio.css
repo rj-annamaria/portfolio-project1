@@ -1,0 +1,16 @@
+body {
+  background-color: black;
+}
+
+h1 {
+  color: darkturquoise;
+  font-family: "Playfair Display", serif;
+
+  font-weight: bold;
+}
+
+p {
+  color: aliceblue;
+  font-family: "Playfair Display", serif;
+  font-weight: normal;
+}
