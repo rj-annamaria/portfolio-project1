@@ -1,24 +1,56 @@
+:root {
+  --primary-color: rgb(255, 196, 0);
+  --secondary-color: rgb(250, 85, 8);
+  --heading-font-family: "Playfair Display", serif;
+  --default-font-family: "";
+}
+
 body {
   background-color: black;
 }
 
-h1 {
-  color: darkturquoise;
-  font-family: "Playfair Display", serif;
-
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: var(--heading-font-family);
   font-weight: bold;
 }
-
+h1 {
+  font-size: 96px;
+  color: var(--primary-color);
+}
+h2 {
+  color: var(--secondary-color);
+}
 p {
-  color: aliceblue;
-  font-family: "Playfair Display", serif;
   font-weight: normal;
-}
-.insta-logo {
-  color: pink;
-  width: 100%;
+  color: var(--secondary-color);
 }
 
-.envelope {
-  color: aqua;
+.hero {
+  background-color: black;
+  text-align: center;
+  padding: 160px 20px;
+}
+
+.hero p {
+  font-size: 36px;
+  font-weight: bold;
+  margin: 0;
+}
+
+.hero h2 {
+  font-family: "Poppins";
+}
+.btn-branding {
+  background: var(--secondary-color);
+  border-radius: 4px;
+  color: aliceblue;
+  font-size: 18px;
+  font-weight: bold;
+  line-height: 27px;
+  padding: 15px 30px;
 }
