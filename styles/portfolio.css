@@ -4,6 +4,19 @@
   --heading-font-family: "Playfair Display", serif;
   --default-font-family: "Poppins", sans-serif;
 }
+.navbar {
+  font-family: "Protest Revolution", sans-serif;
+}
+
+.navigation-links {
+  display: flex;
+  margin-top: 40px;
+  justify-content: center;
+}
+
+.navigation-links a {
+  margin: 20px;
+}
 .project-link {
   min-width: 100px !important;
 }
@@ -34,16 +47,19 @@ p {
   color: var(--secondary-color);
 }
 h1 {
-  font-size: 106px;
+  font-size: 98px;
   color: var(--primary-color);
-  margin-bottom: 40px;
+
   margin-top: 30px;
 }
 h2 {
   color: var(--secondary-color);
   margin-bottom: 70px;
+  font-family: "Protest Revolution", sans-serif;
 }
-
+h3 {
+  color: grey;
+}
 .hero {
   background-image: url("https://i.pinimg.com/originals/8f/f9/23/8ff923420d5b133120b363a006033146.gif");
   width: 100%;
@@ -57,7 +73,7 @@ h2 {
 
 .hero p {
   font-size: 36px;
-  font-weight: bold;
+
   margin: 0;
 }
 
@@ -73,4 +89,20 @@ h2 {
   font-weight: bold;
   line-height: 27px;
   padding: 15px 30px;
+}
+.email-link {
+  display: flex;
+  justify-content: center;
+  color: var(--primary-color);
+  font-size: 20px;
+  text-decoration: none;
+  margin-bottom: 30px;
+  margin-top: 10px;
+}
+
+.email-link:hover {
+  text-decoration: underline;
+}
+.email-contact {
+  margin-top: 70px;
 }
