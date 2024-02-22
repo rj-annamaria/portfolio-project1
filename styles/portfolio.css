@@ -1,6 +1,6 @@
 :root {
   --primary-color: #f7eb98;
-  --secondary-color: #85714b;
+  --secondary-color: rgb(173, 145, 91);
   --heading-font-family: "Playfair Display", serif;
   --default-font-family: "Poppins", sans-serif;
 }
@@ -85,7 +85,7 @@ h3 {
 .btn-branding {
   background: var(--secondary-color);
   border-radius: 4px;
-  color: aliceblue;
+  color: rgb(0, 0, 0);
   font-size: 18px;
   font-weight: bold;
   line-height: 27px;
